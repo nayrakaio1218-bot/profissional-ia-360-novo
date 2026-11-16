@@ -20,11 +20,11 @@ export default function TesteGratisPage() {
   const [phone, setPhone] = useState("");
 
   // ⚠️ Troque pelo SEU número de WhatsApp (DDI + DDD + número, sem espaços, só dígitos)
-  const whatsappNumber = "5541999999999";
+  const whatsappNumber = "5541987619339";
 
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    if (whatsappNumber === "5541999999999") {
+    if (whatsappNumber === "5541987619339") {
       alert("Configure seu número de WhatsApp no arquivo page.tsx (constante whatsappNumber).");
       return;
     }
