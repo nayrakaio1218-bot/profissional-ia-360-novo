@@ -24,10 +24,6 @@ export default function TesteGratisPage() {
 
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    if (whatsappNumber === "5541987619339") {
-      alert("Configure seu número de WhatsApp no arquivo page.tsx (constante whatsappNumber).");
-      return;
-    }
     const message = encodeURIComponent(
       `Olá! Quero testar grátis — 7 dias.\n\nMódulo: ${moduleName}\nNome: ${name}\nE-mail: ${email}\nTelefone: ${phone}`
     );
